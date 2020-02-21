@@ -14,10 +14,11 @@ require 'pry'
   #   }
   # }
 
-contact.each do |person, contact_details_hash|
-  binding.pry
-end
+
 def remove_strawberry(contacts)
+  contact.each do |contact_details_hash
+    if attrbute == :favorite_ice_cream_flavors
+      data.delete_if{|ice-_cream| == "strawberry"}
 
 
 
